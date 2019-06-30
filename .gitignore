@@ -1,3 +1,7 @@
+# For vscode
+*.ipch
+/ipch/
+
 # Prerequisites
 *.d
 
