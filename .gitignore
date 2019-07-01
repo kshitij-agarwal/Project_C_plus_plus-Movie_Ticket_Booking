@@ -1,5 +1,8 @@
 # For vscode
 *.ipch
+*.bin
+launch.json
+tasks.json
 /ipch/
 
 # Prerequisites
