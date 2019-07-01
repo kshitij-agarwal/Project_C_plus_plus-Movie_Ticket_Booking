@@ -148,8 +148,9 @@ string check(string x)
     if (x.length() == 2)
     {
         // to check if the format is right or not
-        // if (isalpha(toupper(x[0])) == true && isdigit(x[1]) == true) //I don't know why I have used toupper but without that it will not work!
-        if ((toupper(x[0])) == true && isdigit(x[1]) == true)
+        int temp_alpha = toupper(x[0]);
+        int temp_dig = x[1];
+        if ( (temp_alpha>=65 && temp_alpha<=90) && (temp_dig>=48 && temp_dig<=57))
         {
             if (toupper(x[0]) >= 'A' && toupper(x[0]) <= 'J')
             {
