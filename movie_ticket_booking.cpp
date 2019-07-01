@@ -20,7 +20,7 @@ points to remember/improve/add:
 8. Add price quotation.
 
  */
-#include <cdoex.h>
+// #include <cdoex.h>
 #include <bits/stdc++.h>
 #include <iostream>
 #include <string>
@@ -148,7 +148,8 @@ string check(string x)
     if (x.length() == 2)
     {
         // to check if the format is right or not
-        if (isalpha(toupper(x[0])) == true && isdigit(x[1]) == true) //I don't know why I have used toupper but without that it will not work!
+        // if (isalpha(toupper(x[0])) == true && isdigit(x[1]) == true) //I don't know why I have used toupper but without that it will not work!
+        if ((toupper(x[0])) == true && isdigit(x[1]) == true)
         {
             if (toupper(x[0]) >= 'A' && toupper(x[0]) <= 'J')
             {
