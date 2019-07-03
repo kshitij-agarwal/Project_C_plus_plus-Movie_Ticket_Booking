@@ -15,8 +15,9 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"structure": {
+	"structure for C++": {
 		"prefix": "im",
+		"scope": "C++",
 		"body": [
 			"#include <iostream>",
 			"",
@@ -31,6 +32,29 @@
 			"\tcout << endl << endl;",
 			"\treturn 0;",
 			"}"
-		]
+		],
+		"description": "Basic C++ program structure"
+	},
+	"todo": {
+		"prefix": "to",
+		"body": "TODO: ",
+		"description": "For the To-Do tasks highlight"
+	},
+	"Add feature": {
+		"prefix": "add",
+		"body": "Add feature - ",
+		"description": "Too lazy to type the whole phrase"
+	},
+	"cout": {
+		"prefix": "cout",
+		"scope": "C++,cpp",
+		"body": "cout << \"$1\";",
+		"description": "Output function in C++"
+	},
+	"cin": {
+		"prefix": "cin",
+		"scope": "C++,cpp",
+		"body": "cin >> $1;",
+		"description": "Input function in C++"
 	}
 }

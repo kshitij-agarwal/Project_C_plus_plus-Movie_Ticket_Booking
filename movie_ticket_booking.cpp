@@ -8,18 +8,18 @@ A Cinema booking system by making use of linked lists. You have to perform the f
 3. User can cancel the ticket and cancelled ticket should be marked as available
 
 
-points to remember/improve/add:
+
+TODO: Add feature - book random seats in the beginning.
+TODO: Add feature - cancellation feature
+TODO: Add feature - Price quotation   
+
+*points to remember/improve/add:
 
 1. to keep a track of number of seats being occupied
-2. upon exiting the program the seat array should be empty as it will change in the due course of the program execution.
-3. to keep the track of number of seats
-4. add a feature in 4.3 "already booked (by you or someone else )" by user or someone else
-5. In point 4.4: add cancellation feature.
-6. Book random seats in the beginning.
-7. gfg - GeeksForGeeks.
-8. Add price quotation.
+2. gfg - GeeksForGeeks.
 
  */
+
 // #include <cdoex.h>
 #include <bits/stdc++.h>
 #include <iostream>
@@ -63,6 +63,8 @@ void display()
             cout << endl;
             // cout << "\t\t\t\t\tRs. 250\n";
         }
+
+        //* Price Variation
         // if (i==2)
         // {
         //     cout << endl;
@@ -181,8 +183,8 @@ string check(string x)
 }
 
 void exit1()
-{
-
+{    
+    
     cout<<"\n\nThank you.";
 
     cout << endl
