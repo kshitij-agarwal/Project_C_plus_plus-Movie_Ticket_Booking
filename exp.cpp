@@ -19,6 +19,9 @@ int main()
     cout << temp_alpha << "\n"
          << temp_dig;
 
-    cout << endl << endl;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    cout << endl
+         << endl;
     return 0;
 }
