@@ -1,9 +1,9 @@
 # For vscode
 *.ipch
 *.bin
-launch.json
-tasks.json
+Vscode Project workspace.code-workspace
 /ipch/
+/.idea/
 
 # Prerequisites
 *.d
