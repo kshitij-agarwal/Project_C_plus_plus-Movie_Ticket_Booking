@@ -58,7 +58,7 @@ void display()
     cout << "\n\n";
     for (int i = 0; i < 11; i++)
     {
-        if (i == 1)
+        if (i == 1) 
         {
             cout << endl;
             // cout << "\t\t\t\t\tRs. 250\n";
